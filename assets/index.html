@@ -2,29 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Traveler Weather Lookout</title>
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header>
-    <h1>Weather Dashboard</h1>
-    </header>
-    <main class="contentContainer">
-        <div class="content">
-            <form class="searchCity">
-                <h2>Search For A City</h2>
-                <input type="text" id="searchInput" />
-                <button id="searchButton">Search</button>
-            </form>
-            <div id="cities"></div>
+    <center>
+    <h1 id=h1Title>Weather Dashboard</h1>
+    <div id="inputContainer">
+        City: <input type="text" id="CityInput">
+    </div>
+    <button>Click here</button>
+    <h2 id="CityName">Detroit</h2>
+</center>
+
+<div id="weatherContainer">
+    <div id="dayContainer">
+        <div class="days">
+            <div class="weather" id="day1"></div>
+            <div class="minValue" id="day1Min">Empty</div>
+            <div class="maxValue" id="day1Max">Empty</div>
         </div>
 
-    <div id="displayCityContent">
-        <div id="currentWeather"></div>
-        <div id="forecastedWeather"></div>
-        <div id="searchResults"></div>
+        <div class="days">
+            <div class="weather" id="day2"></div>
+            <div class="minValue" id="day2Min">Empty</div>
+            <div class="maxValue" id="day2Max">Empty</div>
+        </div>
+
+        <div class="days">
+            <div class="weather" id="day3"></div>
+            <div class="minValue" id="day3Min">Empty</div>
+            <div class="maxValue" id="day3Max">Empty</div>
+        </div>
+
+        <div class="days">
+            <div class="weather" id="day4"></div>
+            <div class="minValue" id="day4Min">Empty</div>
+            <div class="maxValue" id="day4Max">Empty</div>
+        </div>
+
+        <div class="days">
+            <div class="weather" id="day1"></div>
+            <div class="minValue" id="day5Min">Empty</div>
+            <div class="maxValue" id="day5Max">Empty</div>
+        </div>
     </div>
-    </main>
-    <script src="./js/source.js"></script>
+</div>
+    
+   <script src="./js/source.js"></script>
 </body>
 </html>
