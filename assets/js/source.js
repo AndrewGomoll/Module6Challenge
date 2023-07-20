@@ -47,7 +47,7 @@ console.log(localStorageContent)
 
 for(i=0; i < names.length; i++)
 {
-document.getElementById("lastSearch"+i).innerHTML = name;
+//document.getElementById("lastSearch"+i).innerHTML = name;
 }
 }
 //.catch(err => alert("Error"))
