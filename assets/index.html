@@ -8,45 +8,62 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <center>
     <h1 id=h1Title>Weather Dashboard</h1>
     <div id="inputContainer">
-        City: <input type="text" id="CityInput">
+        <p>Search For A City</p>
+        <input type="text" id="CityInput">
     </div>
-    <button onclick=GETWeather()>Click here</button>
+    <button onclick=GETWeather()>search</button>
     <h2 id="CityName">Detroit</h2>
-</center>
+    <div id="currentWeather">
+    <div id="currentTemp"></div>
+    <div id="currentWind"></div>
+    <div id="currentHumidity"></div>
+    </div>
+
+    <div id="history">View History
+        <div id="lastSearch1"></div>
+        <div id="lastSearch2"></div>
+        <div id="lastSearch3"></div>
+        <div id="lastSearch4"></div>
+        <div id="lastSearch5"></div>
+    </div>
 
 <div id="weatherContainer">
     <div id="dayContainer">
         <div class="days">
             <div class="weather" id="day1"></div>
-            <div class="minValue" id="day1Min">Empty</div>
-            <div class="maxValue" id="day1Max">Empty</div>
+            <div class="temp" id="day1Temp">Empty</div>
+            <div class="wind" id="day1Wind">Empty</div>
+            <div cladd="Humidity" id="day1Humidity"></div>
         </div>
 
         <div class="days">
             <div class="weather" id="day2"></div>
-            <div class="minValue" id="day2Min">Empty</div>
-            <div class="maxValue" id="day2Max">Empty</div>
+            <div class="temp" id="day2Temp">Empty</div>
+            <div class="wind" id="day2Wind">Empty</div>
+            <div cladd="Humidity" id="day2Humidity"></div>
         </div>
 
         <div class="days">
             <div class="weather" id="day3"></div>
-            <div class="minValue" id="day3Min">Empty</div>
-            <div class="maxValue" id="day3Max">Empty</div>
+            <div class="temp" id="day3Temp">Empty</div>
+            <div class="wind" id="day3Wind">Empty</div>
+            <div cladd="Humidity" id="day3Humidity"></div>
         </div>
 
         <div class="days">
             <div class="weather" id="day4"></div>
-            <div class="minValue" id="day4Min">Empty</div>
-            <div class="maxValue" id="day4Max">Empty</div>
+            <div class="temp" id="day4Temp">Empty</div>
+            <div class="wind" id="day4Wind">Empty</div>
+            <div cladd="Humidity" id="day4Humidity"></div>
         </div>
 
         <div class="days">
-            <div class="weather" id="day1"></div>
-            <div class="minValue" id="day5Min">Empty</div>
-            <div class="maxValue" id="day5Max">Empty</div>
+            <div class="weather" id="day5"></div>
+            <div class="temp" id="day5Temp">Empty</div>
+            <div class="wind" id="day5Wind">Empty</div>
+            <div cladd="Humidity" id="day5Humidity"></div>
         </div>
     </div>
 </div>

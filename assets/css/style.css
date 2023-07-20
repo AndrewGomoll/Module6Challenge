@@ -1,13 +1,12 @@
 *{
-    color: black;
-    background: white;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
 }
 
 #CityInput, #CityName, #inputContainer,button{
     margin: 3px;
     padding:5px;
-    text-align:center;
+    text-align:left;
     font-size:20px;
     font-weight:bold;
 }
@@ -75,4 +74,10 @@
     margin: 0;
     margin-bottom: 5px;
     margin-left: 5px;
+}
+
+#h1Title{
+    background-color: blue;
+    color: white;
+    text-align: center;
 }
