@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Traveler Weather Lookout</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header>
+    <h1>Weather Dashboard</h1>
+    </header>
+    <main class="contentContainer">
+        <div class="content">
+            <form class="searchCity">
+                <h2>Search For A City</h2>
+                <input type="text" id="searchInput" />
+                <button id="searchButton">Search</button>
+            </form>
+            <div id="cities"></div>
+        </div>
+
+    <div id="displayCityContent">
+        <div id="currentWeather"></div>
+        <div id="forecastedWeather"></div>
+        <div id="searchResults"></div>
+    </div>
+    </main>
+    <script src="./js/source.js"></script>
+</body>
+</html>
